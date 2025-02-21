@@ -42,8 +42,8 @@ bool encounterMonster() {
     int fightChoice;
     cout << "\nA wild monster appears! You must decide quickly!" << endl;
     cout << "Do you fight the monster or run away?" << endl;
-    cout << "Path 1) Fight" << endl;
-    cout << "Path 2) Run" << endl;
+    cout << "1) Fight" << endl;
+    cout << "2) Run" << endl;
     cout << "What will you do? (1-2): ";
     cin >> fightChoice;
     
@@ -84,8 +84,8 @@ bool finalChoice() {
     int escapeChoice;
     cout << "\nYou find a secret passage that leads to a mysterious door." << endl;
     cout << "You now face the final decision: Should you open the door?" << endl;
-    cout << "1. Open the door" << endl;
-    cout << "2. Turn back" << endl;
+    cout << "1) Open the door" << endl;
+    cout << "2) Turn back" << endl;
     cout << "What will you do? (1-2): ";
     cin >> escapeChoice;
     
